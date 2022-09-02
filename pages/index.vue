@@ -1,6 +1,7 @@
 <template>
   <div>
     <div>
+      <Test />
       hello
       <img src="../static/images/zeebra.png">
 
