@@ -1,6 +1,7 @@
 <template>
   <div>
     <div>
+      <Header />
       <Test />
       hello
       <img src="../static/images/zeebra.png">
@@ -13,7 +14,8 @@
 </template>
 
 <script>
+import Header from "../components/Header.vue"
 export default {
-  name: 'IndexPage'
+  name: "IndexPage",
 }
 </script>
