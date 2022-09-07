@@ -40,8 +40,9 @@
 
         <ul class="divide-y font-sans">
           <li><button @click="navigate('/')" class="my-4 inline-block text-black">Home</button></li>
-          <li><button @click="navigate('/About_Us')" class="my-4 inline-block text-black">About Tottenham</button></li>
-          <li><button @click="navigate('/Players')" class="my-4 inline-block text-black">Players</button></li>
+          <li><button @click="navigate('/About_Us')" class="my-4 inline-block text-black">About us</button></li>
+          <li><button @click="navigate('/Library')" class="my-4 inline-block text-black">Library</button></li>
+          <li><button @click="navigate('/Log_In')" class="my-4 inline-block text-black bg-grey-300">Log In</button></li>
         </ul>
 
       </aside>
