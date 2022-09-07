@@ -1,9 +1,11 @@
 <template>
   <div>
 
-    <div class="text-center text-4xl text-green-500 pt-20">
-      Staff
-    </div>
+    <center>
+      <div class="text-center text-4xl text-green-500 pt-20 w-1/3 border-b border-gray-400">
+        Staff
+      </div>
+    </center>
 
     <div class="flex flex-wrap">
 
@@ -34,9 +36,11 @@
     </div>
 
     <div>
-      <div class="text-center text-4xl text-green-500 pt-20">
-        About Ruby Zebras
-      </div>
+      <center>
+        <div class="text-center text-4xl text-green-500 pt-20 w-1/3 border-b border-gray-400">
+          About Ruby Zebras
+        </div>
+      </center>
       <div class="text-center py-12 text-lg">
         Pancakes
       </div>
