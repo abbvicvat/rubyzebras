@@ -11,8 +11,7 @@
 export default {
   head () {
     return {
-      title: "Ruby Zebras",
-      icon: ""
+      title: "Ruby Zebras"
     }
   },
 }

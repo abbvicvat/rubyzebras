@@ -1,6 +1,18 @@
 <template>
-  <nav class="w-full p-6 border-outset border-b-2 border-black Header">
+  <nav class="w-full p-6 shadow-lg">
     <div class="flex items-center justify-between">
+
+      <!-- Header logo -->
+      <div>
+        <nuxt-link to="/">
+          <img style="height:50px;width:50px;" src="../static/images/zebra2.svg" alt="">
+        </nuxt-link>
+      </div>
+
+      <!-- Navbar -->
+      <div class="hidden md:block text-4xl text-green-500 flex items-center">
+        Ruby Zebras
+      </div>
 
       <!-- Mobile toggle -->
       <div>
@@ -10,10 +22,6 @@
             <path d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
-      </div>
-
-      <!-- Navbar -->
-      <div class="hidden md:block">
       </div>
 
       <!-- Dark Background Transition -->
@@ -26,8 +34,8 @@
 
       <!-- Drawer Menu -->
       <aside
-        class="p-5 transform top-0 left-0 w-64 bg-white fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30"
-        :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
+        class="p-5 transform top-0 right-0 w-64 fixed bg-white h-full overflow-auto ease-in-out transition-all duration-300 z-30"
+        :class="isOpen ? 'translate-x-0' : 'translate-x-full'">
 
         <div class="close">
           <button class="absolute top-0 right-0 mt-4 mr-4" @click="isOpen = false">
@@ -46,15 +54,6 @@
         </ul>
 
       </aside>
-
-      <!-- Header logo -->
-      <div>
-        <nuxt-link to="/">
-          <h1><img src="https://www.linkpicture.com/q/tottenham.png" class="logo" /> </h1>
-        </nuxt-link>
-      </div>
-
-      <!-- Header logo -->
     </div>
   </nav>
 </template>
@@ -96,9 +95,5 @@ export default {
 <style>
 .logo {
   height: 50px;
-}
-
-.Header {
-  background-color: rgb(239, 239, 239);
 }
 </style>
