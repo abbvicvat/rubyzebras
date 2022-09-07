@@ -10,7 +10,7 @@
       </div>
 
       <!-- Navbar -->
-      <div class="hidden md:block text-4xl text-green-500 flex items-center">
+      <div class="hidden md:block text-6xl text-green-500 flex items-center">
         Ruby Zebras
       </div>
 
