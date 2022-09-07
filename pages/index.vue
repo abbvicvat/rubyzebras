@@ -18,7 +18,7 @@
   </div>
 <center>
   <div class="flex justify-center w-1/2">
-    <img class="" src="../static/images/BOP05402a-Dove-Zeebra-1-Raiatea-Isl.-Polynesia-Sept19-PH5_0135.jpg" alt="">
+    <img class="" src="../static/images/bird.jpg" alt="">
   </div>
   <div class="m-16 text-2xl w-1/2">
     Det här är historian om den sällsynta pickfågeln som bara flyger 5 gånger per år.
