@@ -1,18 +1,19 @@
-<template>
-    <div>
-    <header>
-        <nav id="navbar" class="bg-gray pr-16 py-1.5 flex justify-end items-center flex-wrap">
-            <nuxt-link class="mx-10 hoverLink" to="/"> Home </nuxt-link>
-            <nuxt-link class="mx-10 hoverLink" to="/articles"> Articles </nuxt-link>
-        </nav>
 
-    </header>
-    <nuxt/>
+<template>
+  <div class="h-screen">
+    <Header />
+    <nuxt class="min-h-full" />
+    <Footer />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'DefaultLayout',
-};
+  head () {
+    return {
+      title: "Ruby Zebras",
+      icon: ""
+    }
+  },
+}
 </script>
