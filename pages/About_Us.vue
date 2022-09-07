@@ -12,7 +12,7 @@
       <div class="flex flex-wrap w-full py-12 justify-center">
         <img class="bild" src="https://www.linkpicture.com/q/Erling.png">
         <div class="w-1/4 pl-80">
-          <div class="text-xl text-green-500">Erling Bolmberg</div>
+          <div class="text-xl text-green-500">Erling Blomberg</div>
           <div class="flex flex-wrap text-lg">Programmerare</div>
         </div>
       </div>
