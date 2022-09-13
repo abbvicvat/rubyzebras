@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- Start Serven med "npm run start-server" -->
+    <!--"npm run start-server" -->
     <div>
       <carousel :slides="slides" :interval="5000" controls indicators />
     </div>
