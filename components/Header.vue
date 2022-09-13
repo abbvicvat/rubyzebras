@@ -92,8 +92,3 @@ export default {
   }
 }
 </script>
-<style>
-.logo {
-  height: 50px;
-}
-</style>
