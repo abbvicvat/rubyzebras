@@ -1,9 +1,16 @@
 <template>
   <div>
+<<<<<<< HEAD
 
     <div>
       <carousel :slides="slides" :interval="5000" controls indicators />
     </div>
+=======
+<!-- Start Serven med "npm run start-server" -->
+<div>
+  <carousel :slides="slides" :interval="5000" controls indicators />
+</div>
+>>>>>>> db389e4ce05e83cd448d159dad24557e7eb88b68
 
     <div class="flex justify-center m-16">
       Top rated book
