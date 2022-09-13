@@ -1,21 +1,57 @@
 <template>
   <div>
-    <div>
+    <div class="text text-green-500">
       Library
     </div>
 
 
-
-    <div class="flex-wrap">
+  <div class="flex justify-evenly flex-wrap">
+    <div class="mt-12">
       <img class="w-96" :src="books[0].img"/>
-      <div class="">{{ books[0].title }}</div>
+      <div class="text-center">{{ books[0].title }}</div>
     </div>
 
-    <div class="flex-wrap">
+    <div class="mt-12">
       <img class="w-96" :src="books[1].img"/>
-      <div class="">{{books[1].title}}</div>
-
+      <div class="text-center">{{books[1].title}}</div>
     </div>
+
+    <div>
+      <div class="mt-12">
+        <img class="w-96" :src="books[2].img"/>
+        <div class="text-center">{{ books[2].title}}</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="mt-12">
+        <img class="w-96" :src="books[4].img"/>
+        <div class="text-center">{{ books[4].title}}</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="mt-12">
+        <img class="w-96" :src="books[3].img"/>
+        <div class="text-center">{{ books[3].title}}</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="mt-12">
+        <img class="w-96" :src="books[5].img"/>
+        <div class="text-center">{{ books[5].title}}</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="mt-12">
+        <img class="w-96" :src="books[6].img"/>
+        <div class="text-center">{{ books[6].title}}</div>
+      </div>
+    </div>
+
+  </div>
 
   </div>
 </template>
@@ -36,4 +72,10 @@ export default {
 </script>
 
 <style>
+  .text {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+
+  }
 </style>

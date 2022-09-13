@@ -2,7 +2,7 @@
   "books": [
       {
           "id": 140,
-          "title": "Svenska timmar - litteraturen",
+          "title": "JAWS",
           "author": "Svante Skoglund",
           "img": "https://kbimages1-a.akamaihd.net/919f4031-d9a3-4a21-9b82-e70c7023602b/1200/1200/False/jaws.jpg",
           "genre": [
@@ -13,9 +13,9 @@
       },
       {
           "id": 141,
-          "title": "Read & Catch Up Update  [Kombinerat material] :  engelska A",
+          "title": "Miniature Donkey",
           "author": "Någon, nånstans, nån gång.",
-          "img": "https://secure.syndetics.com/index.aspx?isbn=9144009135/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=",
+          "img": "https://kbimages1-a.akamaihd.net/4a442a29-b9ca-4b2a-bd83-376aeec74f5d/1200/1200/False/miniature-donkey-miniature-donkey-owners-manual-miniature-donkey-care-environment-health-feeding-and-breeding-1.jpg",
           "lang": "sweeng",
           "genre": [
               "Akademisk"
@@ -25,8 +25,9 @@
       },
       {
           "id": 142,
-          "title": "Iliaden",
+          "title": "The Ultimate Giraffe Book",
           "author": "Per Holmström",
+          "img": "https://images-na.ssl-images-amazon.com/images/I/61Vo9t3oSkL.jpg",
           "lang": "Svenska",
           "genre": [
               "Akademisk"
@@ -36,8 +37,9 @@
       },
       {
           "id": 143,
-          "title": "Wild swans :  three daughters of China",
+          "title": "The Ice Swan",
           "author": "Jung Chang",
+          "img": "http://prodimage.images-bn.com/pimages/9780785248439_p0_v2_s1200x630.jpg",
           "lang": "Engelska",
           "genre": [
               "Akademisk"
@@ -47,9 +49,9 @@
       },
       {
           "id": 144,
-          "title": "Söka svar :  religionskunskap kurs A & B",
+          "title": "The Aye Of The Elephant",
           "author": "Malin Mattsson Flennegård, Leif Eriksson, Uriel Hedengren",
-          "img": "https://secure.syndetics.com/index.aspx?isbn=9147092556/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=",
+          "img": "https://www.storytel.com/images/e/640x640/0002359593.jpg",
           "genre": [
               "Akademisk"
           ],
@@ -58,8 +60,9 @@
       },
       {
           "id": 145,
-          "title": "Decamerone",
+          "title": "Polar Bears in danger",
           "author": "Giovanni Boccaccio",
+          "img": "https://www.bookcellarinc.com/sites/bookcellarinc.com/files/isbn_images/9780448449241.jpg",
           "lang": "Svenska",
           "genre": [
               "Akademisk"
@@ -69,8 +72,9 @@
       },
       {
           "id": 146,
-          "title": "Teman till historien",
+          "title": "Sugar Gilder",
           "author": "Bengt Åke Häger  1,  Före 1789",
+          "img": "https://image.bokus.com/images/9781788650106_200x_sugar-glider-sugar-gliders-as-pets-sugar-gliders-book-for-care-feeding-diet-health-and-costs",
           "genre": [
               "Akademisk"
           ],
