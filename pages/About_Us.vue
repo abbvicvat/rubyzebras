@@ -42,7 +42,7 @@
         </div>
       </center>
       <div class="text-center py-12 text-lg">
-        Pancakes
+        Pancakes with cream
       </div>
     </div>
 
