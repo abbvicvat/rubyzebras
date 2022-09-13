@@ -26,18 +26,18 @@
 </center>
 
 <div class="flex flex-wrap m-32 justify-center">
-  <div class="w-2/5">
-    <img src="https://cdn-icons-png.flaticon.com/512/1842/1842238.png" alt="">
-  </div>
-  <div class="w-2/5">
-    <img src="https://cdn-icons-png.flaticon.com/512/3572/3572155.png" alt="">
-  </div>
-  <div class="mt-8 w-2/5">
+  <NuxtLink to="/Library" class="w-2/5">
+    <img src="https://cdn-icons-png.flaticon.com/512/6619/6619693.png" alt="">
+  </NuxtLink>
+  <NuxtLink to="/Library" class="w-2/5">
+    <img src="https://cdn-icons-png.flaticon.com/512/414/414825.png" alt="">
+  </NuxtLink>
+  <NuxtLink to="/Library" class="mt-8 w-2/5">
     <img src="https://cdn-icons-png.flaticon.com/512/3254/3254422.png" alt="">
-  </div>
-  <div class="mt-8 w-2/5">
-    <img src="https://cdn-icons-png.flaticon.com/512/3251/3251185.png" alt="">
-  </div>
+  </NuxtLink>
+  <NuxtLink to="/Library" class="mt-8 w-2/5">
+    <img src="https://cdn-icons-png.flaticon.com/512/3038/3038873.png" alt="">
+  </NuxtLink>
 </div>
   </div>
 </template>
