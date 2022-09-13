@@ -4,10 +4,19 @@
       Library
     </div>
 
-    <div>
-      <img :src="books[0].img"/>
-      {{ books[0].title }}
+
+
+    <div class="flex-wrap">
+      <img class="w-96" :src="books[0].img"/>
+      <div class="">{{ books[0].title }}</div>
     </div>
+
+    <div class="flex-wrap">
+      <img class="w-96" :src="books[1].img"/>
+      <div class="">{{books[1].title}}</div>
+
+    </div>
+
   </div>
 </template>
 
