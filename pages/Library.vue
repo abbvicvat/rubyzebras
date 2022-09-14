@@ -80,4 +80,9 @@ export default {
   justify-content: center;
 
 }
+
+img:hover {
+  transform: scale(1.05);
+  transition-duration: 0.7s;
+}
 </style>
