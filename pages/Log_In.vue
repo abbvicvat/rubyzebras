@@ -6,7 +6,7 @@
         <hr class="line">
       </div>
       <div class="input-div">
-        <input id="password" type="text" placeholder="Password" class="input">
+        <input id="password" type="password" placeholder="Password" class="input">
         <hr class="line">
       </div>
       <button class="button bg-green-500 mt-12" @click="submit">
@@ -18,12 +18,40 @@
 
 <script>
 export default {
+  async asyncData({ $http }) {
+    let users = await $http.$get('http://localhost:3000/customers');
+    console.log("users:", users);
+    return {
+      users: users
+    };
+  },
+
+  data() {
+    return {
+    }
+  },
+
   methods: {
-    submit(event) {
-      let email = document.getElementById("email");
-      let password = document.getElementById("password");
-      const users = $http.$get('http://localhost:3000/customers');
-      console.log(users);
+    submit() {
+      let email = document.getElementById("email").value;
+      let password = document.getElementById("password").value;
+      
+      let valid = false;
+      console.log("email: ", email);
+      console.log("password: ", password);
+      for (let i = 0; i < this.users.length; ++i) {
+        if (email == this.users[i].email && password == this.users[i].password) {
+          valid = true;
+          alert("jippi")
+          localStorage.setItem("id", this.users[i].id); 
+          localStorage.setItem("name", this.users[i].name);
+          console.log(localStorage.getItem("id"));
+          console.log(localStorage.getItem("name"));
+          break;
+        }
+      }
+
+      if (!valid) alert("wrong")
     }
   }
 }
