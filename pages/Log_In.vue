@@ -17,17 +17,14 @@
 </template>
 
 <script>
+import data from '../db.json'
+
 export default {
-  async asyncData({ $http }) {
-    let users = await $http.$get('http://localhost:3000/customers');
-    console.log("users:", users);
-    return {
-      users: users
-    };
-  },
+  async fetch() { console.log("users:", this.users); },
 
   data() {
     return {
+      users: data.customers
     }
   },
 
@@ -42,7 +39,7 @@ export default {
       for (let i = 0; i < this.users.length; ++i) {
         if (email == this.users[i].email && password == this.users[i].password) {
           valid = true;
-          alert("jippi")
+          alert("Log in successful")
           localStorage.setItem("id", this.users[i].id); 
           localStorage.setItem("name", this.users[i].name);
           console.log(localStorage.getItem("id"));
@@ -51,7 +48,7 @@ export default {
         }
       }
 
-      if (!valid) alert("wrong")
+      if (!valid) alert("Wrong email or password")
     }
   }
 }

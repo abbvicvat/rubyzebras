@@ -4,13 +4,14 @@
     <div>
       <carousel :slides="slides" :interval="5000" controls indicators />
     </div>
+    <hr class="mt-16">
 
-    <div class="flex justify-center m-16">
+    <div class="flex justify-center m-16 text-green-500 text-2xl">
       Top rated book
     </div>
     <div class="flex flex-wrap">
       <div class="w-1/2">
-        <img class="shadow-xl ml-24" src="../static/images/zeebra.png">
+        <img class="shadow-xl ml-24 w-5/6" src="../static/images/zeebra.png">
       </div>
       <div class="flex items-center text-4xl ml-16 w-1/3">
         Den här boken handlar om undervattens zebror som lever i corallrev
@@ -18,18 +19,22 @@
     </div>
     <hr class="mt-16">
 
-    <div class="flex justify-center m-8">
-      most viewed
+    <div class="flex justify-center m-16 text-green-500 text-2xl">
+      Most viewed
     </div>
-    <center>
-      <div class="flex justify-center w-1/2">
-        <img class="" src="../static/images/bird.jpg" alt="">
-      </div>
-      <div class="m-16 text-2xl w-1/2">
+    <div class="flex flex-wrap">
+      <div class="flex items-center text-4xl ml-16 w-1/3">
         Det här är historian om den sällsynta pickfågeln som bara flyger 5 gånger per år.
       </div>
-    </center>
+      <div class="w-1/2">
+        <img class="shadow-xl ml-24 w-5/6" src="../static/images/bird.jpg" alt="">
+      </div>
+    </div>
+    <hr class="mt-16">
 
+    <div class="flex justify-center m-16 text-green-500 text-2xl">
+      Habitats
+    </div>
     <div class="flex flex-wrap m-32 justify-center">
       <NuxtLink to="/Library" class="w-2/5">
         <img src="https://cdn-icons-png.flaticon.com/512/6619/6619693.png" alt="">
