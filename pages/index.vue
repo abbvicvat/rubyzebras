@@ -9,14 +9,16 @@
     <div class="flex justify-center m-16 text-green-500 text-2xl">
       Top rated book
     </div>
-    <div class="flex flex-wrap">
-      <div class="w-1/2">
-        <img class="shadow-xl ml-24 w-5/6" src="../static/images/zeebra.png">
+    <nuxt-link to="/Books">
+      <div class="flex flex-wrap">
+        <div class="w-1/2">
+          <img class="shadow-xl ml-24 w-5/6" src="../static/images/zeebra.png">
+        </div>
+        <div class="flex items-center text-4xl ml-16 w-1/3">
+          Den här boken handlar om undervattens zebror som lever i corallrev
+        </div>
       </div>
-      <div class="flex items-center text-4xl ml-16 w-1/3">
-        Den här boken handlar om undervattens zebror som lever i corallrev
-      </div>
-    </div>
+    </nuxt-link>
     <hr class="mt-16">
 
     <div class="flex justify-center m-16 text-green-500 text-2xl">

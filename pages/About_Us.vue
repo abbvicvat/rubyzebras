@@ -42,7 +42,7 @@
         </div>
       </center>
       <div class="text-center py-12 text-lg">
-        Pancakes with cream
+        Vår vision: Någon bra punchline!
       </div>
     </div>
 
@@ -61,32 +61,4 @@ export default {
   width: 150px;
   height: 150px;
 }
-
-/*
-.bilder {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: baseline;
-  align-content: stretch;
-  margin-left: 100px;
-
-}
-
-.rad {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: stretch;
-  margin-bottom: 30px;
-}
-
-.namn {
-  margin-left: 10%;
-  font-size: 50px;
-  width: 500px;
-} */
 </style>
