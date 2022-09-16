@@ -83,8 +83,9 @@
       },
       {
           "id": 147,
-          "title": "Fröken Julie ; Ett drömspel",
+          "title": "Undervattenszebror",
           "author": "August Strindberg",
+          "img": "http://localhost:3000/_nuxt/static/images/zeebra.png",
           "genre": [
               "Akademisk"
           ],
@@ -93,9 +94,9 @@
       },
       {
           "id": 148,
-          "title": "Spela roll :  samhällskunskap 50 p",
+          "title": "Pickfågeln",
           "author": "Fredrik Harstad, Sandra Heaver och Jens Öberg",
-          "img": "https://secure.syndetics.com/index.aspx?isbn=9140673138/MC.GIF&client=bibivastse&type=xw10&upc=&oclc=",
+          "img": "http://localhost:3000/_nuxt/static/images/bird.jpg",
           "genre": [
               "Akademisk"
           ],
