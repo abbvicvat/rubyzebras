@@ -27,10 +27,9 @@
 <script>
 import data from '../db.json'
 export default {
-  async fetch () { this.books = data.books },
   data () {
     return {
-      books: []
+      books: data.books
     }
   },
   // async fetch () {
