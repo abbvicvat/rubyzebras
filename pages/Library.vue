@@ -10,8 +10,8 @@
             <img class="w-72" :src="book.img" />
             <div class="pl-8 w-80">
               <div class="text-center text-green-500 text-2xl">{{ book.title }}</div>
-              <div class="text-center text-yellow-500 text-lg">{{ book.author }}</div>
-              <div class="text-center text-red-500 text-lg">genre</div>
+              <div class="text-center text-yellow-500 text-xl">{{ book.author }}</div>
+              <div class="text-center text-red-500 text-xl">genre</div>
               <div class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore
                 et dolore magna

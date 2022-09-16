@@ -24,14 +24,16 @@
     <div class="flex justify-center m-16 text-green-500 text-2xl">
       Most viewed
     </div>
-    <div class="flex flex-wrap">
-      <div class="flex items-center text-4xl ml-16 w-1/3">
-        Det här är historian om den sällsynta pickfågeln som bara flyger 5 gånger per år.
+    <nuxt-link to="/Books">
+      <div class="flex flex-wrap ">
+        <div class="flex items-center text-4xl ml-16 w-1/3">
+          Det här är historian om den sällsynta pickfågeln som bara flyger 5 gånger per år.
+        </div>
+        <div class="w-1/2">
+          <img class="shadow-xl ml-24 w-5/6" src="../static/images/bird.jpg" alt="">
+        </div>
       </div>
-      <div class="w-1/2">
-        <img class="shadow-xl ml-24 w-5/6" src="../static/images/bird.jpg" alt="">
-      </div>
-    </div>
+    </nuxt-link>
     <hr class="mt-16">
 
     <div class="flex justify-center m-16 text-green-500 text-2xl">
