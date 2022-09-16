@@ -5,50 +5,19 @@
     </div>
 
     <div class="flex justify-evenly flex-wrap">
-      <div class="mt-12">
-        <img class="w-96" :src="books[0].img" />
-        <div class="text-center">{{ books[0].title }}</div>
-      </div>
 
-      <div class="mt-12">
-        <img class="w-96" :src="books[1].img" />
-        <div class="text-center">{{books[1].title}}</div>
-      </div>
 
-      <div>
-        <div class="mt-12">
-          <img class="w-96" :src="books[2].img" />
-          <div class="text-center">{{ books[2].title}}</div>
+      <template v-for="book in books">
+        <div class="mt-12 mx-96 w-full border flex flex-wrap justify-center" v-if="book.img != null" :key="book.id">
+          <div class="flex flex-wrap">
+            <img class="w-72" :src="book.img" />
+            <div class="w-40">
+              <div class="text-center">{{ book.title }}</div>
+              <div class="text-center">{{ book.author }}</div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div>
-        <div class="mt-12">
-          <img class="w-96" :src="books[4].img" />
-          <div class="text-center">{{ books[4].title}}</div>
-        </div>
-      </div>
-
-      <div>
-        <div class="mt-12">
-          <img class="w-96" :src="books[3].img" />
-          <div class="text-center">{{ books[3].title}}</div>
-        </div>
-      </div>
-
-      <div>
-        <div class="mt-12">
-          <img class="w-96" :src="books[5].img" />
-          <div class="text-center">{{ books[5].title}}</div>
-        </div>
-      </div>
-
-      <div>
-        <div class="mt-12">
-          <img class="w-96" :src="books[6].img" />
-          <div class="text-center">{{ books[6].title}}</div>
-        </div>
-      </div>
+      </template>
 
     </div>
 
@@ -81,8 +50,9 @@ export default {
 
 }
 
-img:hover {
+/* 
+img :hover {
   transform: scale(1.05);
   transition-duration: 0.7s;
-}
+} */
 </style>
