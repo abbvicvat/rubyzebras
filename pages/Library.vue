@@ -6,15 +6,17 @@
     <div class="flex justify-evenly flex-wrap">
       <template v-for="book in books">
         <div class="mt-12 mx-96 w-full flex flex-wrap justify-center" v-if="book.img != null" :key="book.id">
-          <div class="flex flex-wrap cont">
+          <nuxt-link to="/Books" class="flex flex-wrap cont">
             <img class="w-72" :src="book.img" />
             <div class="pl-8 w-80">
               <div class="text-center text-green-500 text-2xl">{{ book.title }}</div>
               <div class="text-center text-yellow-500 text-lg">{{ book.author }}</div>
+              <div class="text-center text-red-500 text-lg">genre</div>
               <div class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore
                 et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
                 consequat. Duis
                 aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint
@@ -24,7 +26,7 @@
                 <img src="../static/images/icons8-add-shopping-cart-48.png" alt="">
               </div>
             </div>
-          </div>
+          </nuxt-link>
         </div>
       </template>
     </div>
