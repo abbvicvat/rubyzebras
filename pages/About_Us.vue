@@ -1,8 +1,7 @@
 <template>
   <div>
-
     <center>
-      <div class="text-center text-4xl text-green-500 pt-20 w-1/3 border-b border-gray-400">
+      <div class="text-center text-4xl text-green-500 w-1/3 border-b border-gray-400">
         Staff
       </div>
     </center>
